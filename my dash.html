@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+<body>
+    <div id="dashboard">
+        <div class="widget" id="tasks">
+            <div class="widget-title">Tasks</div>
+            <button class="toggle-btn">📌 Expand/Collapse</button>
+            <ul class="content"><li>✅ Task 1</li><li>✅ Task 2</li></ul>
+        </div>
+        <div class="widget" id="calendar">
+            <div class="widget-title">Calendar</div>
+            <button class="toggle-btn">📅 Expand/Collapse</button>
+            <p class="content">📍 Event 1 - 10AM</p>
+        </div>
+        <div class="widget" id="notes">
+            <div class="widget-title">Notes</div>
+            <button class="toggle-btn">📝 Expand/Collapse</button>
+            <p class="content">✍ Meeting notes...</p>
+        </div>
+    </div>
+    
+    <script src="./java.js"></script>
+</body>
+</html>
